@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+.content {
+    background: url("bg.jpg") no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: url("logo.png") no-repeat;
+    width: 450px;
+    height: 85px;
+}
+
+.form-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+input {
+    width: 350px;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #F79423;
+    outline: none;
+    font-size:16px;
+    box-sizing: border-box;
+    color: #492A80;
+}
+
+textarea {
+    width: 350px;
+    max-width: 350px;
+    min-width: 350px;
+    min-height: 40.4px;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #F79423;
+    outline: none;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: #492A80;
+}
+
+.submit {
+    background-color: #F79423;
+    color: white;
+}
