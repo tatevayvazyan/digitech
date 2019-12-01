@@ -3,18 +3,22 @@ body {
 }
 
 .content {
-    background: url("bg.jpg") no-repeat;
-    background-size: contain;
+    background-size: cover;
     position: relative;
+    background-color: #66bb6a;
 }
 
 .logo {
+    font-family: 'Luckiest Guy', cursive;
+    color: #66bb6a;
+    font-size: 48px;
     position: absolute;
-    top: 25px;
-    left: 40px;
-    background: url("logo.png") no-repeat;
-    width: 450px;
-    height: 85px;
+    background-color: #ffeb3b;
+    padding: 65px;
+    width: 48%;
+    height: 40%;
+    border-bottom-right-radius: 100%;
+    z-index: 2;
 }
 
 .form-block {
@@ -23,6 +27,8 @@ body {
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    position: relative;
+    z-index: 3;
 }
 
 input {
@@ -30,11 +36,11 @@ input {
     margin: 5px;
     padding: 10px 15px;
     border-radius: 20px;
-    border: 1px solid #F79423;
+    border: 1px solid #ffeb3b ;
     outline: none;
     font-size:16px;
     box-sizing: border-box;
-    color: #492A80;
+    color: #66bb6a;
 }
 
 textarea {
@@ -45,14 +51,14 @@ textarea {
     margin: 5px;
     padding: 10px 15px;
     border-radius: 20px;
-    border: 1px solid #F79423;
+    border: 1px solid #ffeb3b;
     outline: none;
     font-size: 16px;
     box-sizing: border-box;
-    color: #492A80;
+    color: #66bb6a;
 }
 
 .submit {
-    background-color: #F79423;
-    color: white;
+    background-color: #ffeb3b;
+    color: black;
 }
